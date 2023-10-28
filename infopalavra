@@ -1,0 +1,10 @@
+palavra=input("digite a palavra: ")
+
+print("Tipo da variável: ", type(palavra))
+print("Tem espaços: ", palavra.isspace())
+print("É um número", palavra.isnumeric())
+print("É alfabético: ", palavra.isalpha())
+print("É alfanumérico", palavra.isalnum())
+print("Está em maiúscula", palavra.isupper())
+print("Está em minúscula", palavra.islower())
+print("Está capitalizada", palavra.istitle())
