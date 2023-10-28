@@ -1,0 +1,22 @@
+while True:
+    velocidade_carro = float(input("Digite a velocidade do carro em km/h: "))
+
+    limite_velocidade = 80
+    valor_multa_por_km = 7
+
+    if velocidade_carro > limite_velocidade:
+        km_acima_limite = velocidade_carro - limite_velocidade
+        valor_multa = km_acima_limite * valor_multa_por_km
+
+        print("Você foi multado! A multa a ser paga é de R$ {:.2f}".format(valor_multa))
+    else:
+        print("Velocidade dentro do limite. Dirija com segurança!")
+
+    reiniciar = input("Digite 'continuar' para reiniciar o programa ou 'sair' para encerrar: ")
+    if reiniciar.lower() == "continuar":
+        print("Reiniciando o programa...")
+    elif reiniciar.lower() == "sair":
+        print("Encerrando o programa...")
+        break  # Encerra o loop e finaliza o programa
+    else:
+        print("Continuando o programa...")
