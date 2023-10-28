@@ -1,0 +1,6 @@
+nome=input("Qual seu nome?")
+dia=int(input("Qual o dia do seu nascimento? "))
+mes=int(input("Qual o mes do seu nascimento? "))
+ano=int(input("Qual o ano do seu nascimento? "))
+
+print("Olá, {}, seu nascimento é: {}/{}/{}".format(nome,dia,mes,ano))
