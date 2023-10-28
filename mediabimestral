@@ -1,0 +1,39 @@
+nota1=float(input("Qual sua nota na primeira avaliação: "))
+if nota1<0 or nota1>=11:
+    print("nota invalida, nota abaixo de 0 ou acima de 10, digite um valor válido(entre 0 e 10)")
+    nota1=float(input("Qual sua nota na primeira avaliação: "))
+else:
+    if nota1<0 or nota1>=11:
+        print("nota invalida, nota abaixo de 0 ou acima de 10, digite um valor válido(entre 0 e 10)")
+        nota1=float(input("Qual sua nota na primeira avaliação: "))
+
+nota2=float(input("Qual sua nota na segunda avaliação: "))
+if nota2<0 or nota2>=11:
+    print("nota invalida, nota abaixo de 0 ou acima de 10, digite um valor válido(entre 0 e 10)")
+    nota2=float(input("Qual sua nota na segunda avaliação: "))
+else:
+    if nota2<0 or nota2>=11:
+        print("nota invalida, nota abaixo de 0 ou acima de 10, digite um valor válido(entre 0 e 10)")
+        nota2=float(input("Qual sua nota na segunda avaliação: "))
+
+nota3=float(input("Qual sua nota na terceira avaliação: "))
+if nota3<0 or nota3>=11:
+    print("nota invalida, nota abaixo de 0 ou acima de 10, digite um valor válido(entre 0 e 10)")
+    nota3=float(input("Qual sua nota na terceira avaliação: "))
+else:
+    if nota3<0 or nota3>=11:
+        print("nota invalida, nota abaixo de 0 ou acima de 10, digite um valor válido(entre 0 e 10)")
+        nota3=float(input("Qual sua nota na terceira avaliação: "))
+
+nota4=float(input("Qual sua nota na quarta avaliação: "))
+if nota4<0 or nota4>=11:
+    print("nota invalida, nota abaixo de 0 ou acima de 10, digite um valor válido(entre 0 e 10)")
+    nota4=float(input("Qual sua nota na quarta avaliação: "))
+else:
+    if nota4<0 or nota4>=11:
+        print("nota invalida, nota abaixo de 0 ou acima de 10, digite um valor válido(entre 0 e 10)")
+        nota4=float(input("Qual sua nota na quarta avaliação: "))
+
+media=(nota1+nota2+nota3+nota4)/4
+
+print("A média das sua notas é: {}".format(media))
