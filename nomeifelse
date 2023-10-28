@@ -1,0 +1,6 @@
+nome=input("Qual seu nome? ")
+
+if (nome=="Pietro"):
+    print("Boas-vindas, {}".format(nome))
+else:
+    pass
