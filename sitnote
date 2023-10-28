@@ -1,0 +1,13 @@
+nota1=float(input("Digite sua primeira nota: "))
+nota2=float(input("Digite sua segunda nota: "))
+media=(nota1+nota2)/2
+
+if media >= 7:
+    situacao = "Aprovado"
+elif 5 <= media <= 6.9:
+    situacao = "Recuperação"
+else:
+    situacao = "Dependência"
+
+print("Sua média foi: {:.2f}".format(media))
+print("Sua situação é: {}".format(situacao))
