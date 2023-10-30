@@ -1,0 +1,11 @@
+# Var's
+
+ms = float(input("Digite a velocidade em M/s : "))
+
+# Process
+
+kmh = ms * 3.6
+
+# Code
+
+print("A velocidade {} m/s em KM/h é: {:.1f}".format(ms, kmh))
