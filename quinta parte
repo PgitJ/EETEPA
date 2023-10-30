@@ -1,0 +1,11 @@
+# Var's
+
+number0 = int(input("Digite um número: "))
+
+# Process
+
+res = number0/5
+
+# Code
+
+print("A quinta parte do número {} é: {}".format(number0,res))
