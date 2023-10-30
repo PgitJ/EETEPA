@@ -1,0 +1,6 @@
+# Var's
+number=int(input("Digite um número: "))
+
+# Code
+
+print("Seu número é: {}".format(number))
