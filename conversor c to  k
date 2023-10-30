@@ -1,0 +1,11 @@
+# Var's
+
+celsius = float(input("Digite uma temperature em graus kelvin: "))
+
+# Process
+
+kelvin = celsius + 273.15
+
+# Code
+
+print("A conversão da temperatura {} em celsius é: {:.2f} kelvin".format(celsius, kelvin))
