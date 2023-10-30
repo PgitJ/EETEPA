@@ -8,4 +8,4 @@ fahrenheit = celsius * (9.0/5.0) + 32
 
 # Code
 
-print("A conversão da temperatura em {} celsius é: {} fahrenheit".format(celsius,fahrenheit))
+print("A conversão da temperatura {} em celsius é: {} fahrenheit".format(celsius,fahrenheit))
