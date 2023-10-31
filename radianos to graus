@@ -1,0 +1,12 @@
+# Var's
+
+radianos = float(input("Digite um ângulo em radianos: "))
+
+# Process
+
+pi = 3.14159
+graus = radianos * (180 / pi) 
+
+# Code
+
+print("O ângulo {} radianos em graus é: {:.3f}".format(radianos, graus))
