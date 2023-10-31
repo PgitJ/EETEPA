@@ -1,0 +1,11 @@
+# Var's
+
+m = float(input("Digite a distância em milhas: "))
+
+# Process
+
+km = 1.61 * m
+
+# Code
+
+print("A distância {} milhas em quilômetro é: {:.3f}".format(m, km))
