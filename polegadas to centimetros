@@ -1,0 +1,11 @@
+# Var's
+
+polegadas = float(input("Digite um comprimento em polegadas: "))
+
+# Process
+
+centimetros = polegadas * 2.54
+
+# Code
+
+print("O comprimento {} polegadas em centÍmetros é: {:.2f}".format(polegadas, centimetros))
