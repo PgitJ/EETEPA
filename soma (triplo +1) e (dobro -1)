@@ -1,0 +1,15 @@
+# Var's
+
+number = int(input("Digite um número inteiro: "))
+
+# Process
+triplo = number * 3
+dobro = number * 2
+
+soma = (triplo + 1) + (dobro - 1)
+
+# Code
+
+print("Seu número é: {}".format(number))
+print("O triplo do seu número é: {}. O dobro do seu número é: {}".format(triplo, dobro))
+print("A soma ente o sucessor do Triplo com o antecessor do Dobro é: {}".format(soma))
