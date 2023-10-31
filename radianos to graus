@@ -9,4 +9,4 @@ graus = radianos * (180 / pi)
 
 # Code
 
-print("O ângulo {} radianos em graus é: {:.3f}".format(radianos, graus))
+print("O ângulo {} radianos em graus é: {:.5f}".format(radianos, graus))
